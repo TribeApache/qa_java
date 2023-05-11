@@ -9,13 +9,13 @@ public class FelineTest {
 
     @Test
     public void eatMeatReturnPredatorFood() throws Exception {
-        List<String> felineFood = List.of("Животные", "Птицы", "Рыба");
+        List<String> felineFood = List.of("Р–РёРІРѕС‚РЅС‹Рµ", "РџС‚РёС†С‹", "Р С‹Р±Р°");
         Assert.assertEquals(felineFood, feline.eatMeat());
     }
 
     @Test
     public void getFamilyReturnAnswerForFeline() {
-        String typeOfAnimal = "Кошачьи";
+        String typeOfAnimal = "РљРѕС€Р°С‡СЊРё";
         Assert.assertEquals(typeOfAnimal, feline.getFamily());
     }
 

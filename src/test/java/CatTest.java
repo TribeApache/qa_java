@@ -24,7 +24,7 @@ public class CatTest {
     @Test
     public void getSoundTest() {
         Cat cat = new Cat(feline);
-        String catSays = "Ìÿó";
+        String catSays = "ĞœÑÑƒ";
         assertEquals(catSays, cat.getSound());
     }
 
@@ -37,7 +37,7 @@ public class CatTest {
 
     @Test
     public void getFoodReturnFelineList() throws Exception {
-        List<String> felineFood = List.of("Æèâîòíûå", "Ïòèöû", "Ğûáà");
+        List<String> felineFood = List.of("Ğ–Ğ¸Ğ²Ğ¾Ñ‚Ğ½Ñ‹Ğµ", "ĞŸÑ‚Ğ¸Ñ†Ñ‹", "Ğ Ñ‹Ğ±Ğ°");
         Feline feline1 = new Feline();
         Cat cat = new Cat(feline1);
         assertEquals(felineFood, cat.getFood());

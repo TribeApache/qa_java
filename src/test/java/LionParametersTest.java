@@ -19,8 +19,8 @@ public class LionParametersTest {
     @Parameterized.Parameters(name = "sex: {0}, expected: {1}")
     public static Object[][] getTestData() {
         return new Object[][]{
-                {"Ñàìåö", true},
-                {"Ñàìêà", false}
+                {"Ğ¡Ğ°Ğ¼ĞµÑ†", true},
+                {"Ğ¡Ğ°Ğ¼ĞºĞ°", false}
         };
     }
 
